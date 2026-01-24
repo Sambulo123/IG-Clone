@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+.format {
+  color: white;
+  display: flex;
+}
+.left {
+  width: 10%;
+}
+.middle {
+  width: 55%;
+}
+.right {
+  width: 35%;
+}
