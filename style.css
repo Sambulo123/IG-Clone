@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
 }
 .format {
   color: white;
@@ -13,4 +15,148 @@ body {
 }
 .right {
   width: 35%;
+}
+
+
+/*middle Section CSS*/
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.stories-wrapper {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+
+.stories-viewport {
+    width: 520px;
+    overflow: hidden;
+}
+
+.stories-track {
+    display: flex;
+    gap: 15px;
+    transition: transform 0.4s ease;
+}
+
+.scroll-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.story {
+    text-align: center;
+    width: 70px;
+    flex-shrink: 0;
+}
+
+.story-ring {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.story-ring img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.story p { 
+    font-size: 12px;
+    margin-top: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post-wrapper {
+    width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.post {
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.post-image img{
+    width: 100%;
+    height: auto;
+}
+
+.post-actions{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    font-size: 20px;
+}
+
+.post-likes{
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.post-caption{
+    padding: 0 10px 10px 10px;
+    font-size: 14px;
+}
+
+.verfied {
+    color: #0095f6;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-left: 4px;
 }
