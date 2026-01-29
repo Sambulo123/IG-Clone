@@ -85,7 +85,7 @@ $posts = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram Clone Project</title>
-    <link rel="stylesheet" href="IG clone.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 <body>
@@ -158,6 +158,6 @@ $posts = [
     <?php endforeach; ?>
 </div>
             </div>
-<script src="IG clone.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
