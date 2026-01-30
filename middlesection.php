@@ -1,80 +1,80 @@
-<?php
+ <?php
 $stories = [
-    ["name" => "User 1", "image" => "placeholder picture.jpg"],  //add pic here for stories (this is for Alpha Koder)
-    ["name" => "User 2", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 3", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 4", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 5", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 6", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 7", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 8", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 9", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 10", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 11", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 11", "image" => "placeholder picture.jpg"],  //add pic here for stories
-    ["name" => "User 12", "image" => "placeholder picture.jpg"],  //add pic here for stories
+    ["name" => "Khanyisa.sa", "image" => "gyp.jpg"],  //add pic here for stories (this is for Alpha Koder)
+    ["name" => "Sthandile.sa", "image" => "boxedRedRoses.jpg"],  //add pic here for stories
+    ["name" => "Pathom.Alpha", "image" => "carnations bouqet.jpg"],  //add pic here for stories
+    ["name" => "Nhloso-enhle.sa", "image" => "lillies.jpg"],  //add pic here for stories
+    ["name" => "Luyanda.M", "image" => "mixedbunchRoses.jpg"],  //add pic here for stories
+    ["name" => "Z.ama p", "image" => "PurplepitchPerfect.jpg"],  //add pic here for stories
+    ["name" => "sweetrevenge.sa", "image" => "red roses2.jpg"],  //add pic here for stories
+    ["name" => "Siphesihle.Mdanda", "image" => "spray roses.jpg"],  //add pic here for stories
+    ["name" => "Nandy_k", "image" => "sunflowers.jpg"],  //add pic here for stories
+    ["name" => "SugarBear.Ndaba", "image" => "white roses2.jpg"],  //add pic here for stories
+    ["name" => "SI.BONGA", "image" => "yellow mixed bunch.jpg"],  //add pic here for stories
+    ["name" => "Mel.rolens", "image" => "post6.jpg"],  //add pic here for stories
+   
 ];
 
 $posts = [
     [
-        "username"=> "User 1",
-        "profile_pic"=> "placeholder picture.jpg",  //add pic here for posts
+        "username"=> "SI.BONGA",
+        "profile_pic"=> "lillies.jpg",  //add pic here for posts
         "time"=>"16m",
         "verified"=>true,
-        "post_image" => "placeholder picture.jpg",
-        "likes_user"=> "User 2",
-        "likes_count"=>120,
-        "caption"=> "This is the caption for post 1"
+        "post_image" => "post1.jpg",
+        "likes_user"=> "Khanyisa.sa",
+        "likes_count"=>190,
+        "caption"=> "ZARA HUN"
     ],
     [
-        "username"=> "User 2",     //you can change the username
-        "profile_pic"=> "placeholder picture.jpg",  //add pic here for stories
+        "username"=> "Pathom.Alpha",     //you can change the username
+        "profile_pic"=> "carnations bouqet.jpg",  //add pic here for stories
         "time"=>"16m",      //u can change the time
         "verified"=>false,
-        "post_image" => "placeholder picture.jpg",  //add pic here for posts
-        "likes_user"=> "User 2",  //this is who liked the post
-        "likes_count"=>120,    //this is the like count
-        "caption"=> "This is the caption for post 2"  //u can add a caption here anyone you want
+        "post_image" => "post2.jpg",  //add pic here for posts
+        "likes_user"=> "Ama_tha",  //this is who liked the post
+        "likes_count"=>567,    //this is the like count
+        "caption"=> "chilled sunday , vibes laid back!"  //u can add a caption here anyone you want
     ],
     [      //please look at the top post for reference.
-        "username"=> "User 3",
-        "profile_pic"=> "placeholder picture.jpg",  //add pic here for posts
+        "username"=> "wallpapers aesthetics",
+        "profile_pic"=> "purple.jpg",  //add pic here for posts
         "time"=>"16m",
         "verified"=>true,
-        "post_image" => "placeholder picture.jpg",
-        "likes_user"=> "User 2",
-        "likes_count"=>120,
-        "caption"=> "This is the caption for post 2"
+        "post_image" => "post3.jpg",
+        "likes_user"=> "lulubear",
+        "likes_count"=>904,
+        "caption"=> "god is my sherperd i shall not want!"
     ],
     [
-        "username"=> "User 4",
-        "profile_pic"=> "placeholder picture.jpg",  //add pic here for posts
+        "username"=> "sweetrevenge.sa",
+        "profile_pic"=> "spray roses.jpg",  //add pic here for posts
         "time"=>"16m",
         "verified"=>true,
-        "post_image" => "placeholder picture.jpg",
-        "likes_user"=> "User 2",
+        "post_image" => "post4.jpg",
+        "likes_user"=> "standard_user",
         "likes_count"=>120,
-        "caption"=> "This is the caption for post 2"
+        "caption"=> "NO ONE TO CALL WHEN THE PLANE LANDS"
     ],
     [
-        "username"=> "User 5",
-        "profile_pic"=> "placeholder picture.jpg",  //add pic here for posts
+        "username"=> "Khanyisa.sa",
+        "profile_pic"=> "gyp.jpg",  //added
         "time"=>"16m",
         "verified"=>false,
-        "post_image" => "placeholder picture.jpg",
-        "likes_user"=> "User 2",
-        "likes_count"=>120,
-        "caption"=> "This is the caption for post 2"
+        "post_image" => "post5.jpg",
+        "likes_user"=> "sthandile.sa",
+        "likes_count"=>200,
+        "caption"=> "unique is better than ordinary"
     ],
     [
-        "username"=> "User 6",
-        "profile_pic"=> "placeholder picture.jpg",  //add pic here for posts
+        "username"=> "Sthandile.sa",
+        "profile_pic"=> "petals.jpg",  //added
         "time"=>"16m",
         "verified"=>false,
-        "post_image" => "placeholder picture.jpg",
-        "likes_user"=> "User 2",
-        "likes_count"=>120,
-        "caption"=> "This is the caption for post 2"
+        "post_image" => "post6.jpg",
+        "likes_user"=> "amahlethu.sa",
+        "likes_count"=>340,
+        "caption"=> "street wear is better than being street smart!"
     ],
 ];
 ?>
